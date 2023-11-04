@@ -79,7 +79,7 @@ body::-webkit-scrollbar-thumb {
     text-align: center;
     color: var(--Azul-Escuro, #000000);
     font-family: Montserrat;
-    font-size: 34px;
+    font-size: 30px;
     height: 80%;
     font-style: normal;
     font-weight: bolder;
@@ -92,7 +92,7 @@ body::-webkit-scrollbar-thumb {
 .text-job {
     color: var(--Azul-Escuro, #000000);
     font-family: Montserrat;
-    font-size: 32px;
+    font-size: 30px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -102,20 +102,6 @@ body::-webkit-scrollbar-thumb {
 }
 
 @media (max-width: 1200px) {
-    .text-job {
-        color: var(--Azul-Escuro, #000000);
-        font-family: Montserrat;
-        font-size: 24px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: normal;
-        padding-left: 10px;
-        padding-right: 10px;
-        height: max-content;
-    }
-}
-
-@media (max-width: 921px) {
     .text-job {
         color: var(--Azul-Escuro, #000000);
         font-family: Montserrat;
@@ -129,11 +115,25 @@ body::-webkit-scrollbar-thumb {
     }
 }
 
+@media (max-width: 921px) {
+    .text-job {
+        color: var(--Azul-Escuro, #000000);
+        font-family: Montserrat;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        padding-left: 10px;
+        padding-right: 10px;
+        height: max-content;
+    }
+}
+
 @media (max-width: 621px) {
     .text-job {
         color: var(--Azul-Escuro, #000000);
         font-family: Montserrat;
-        font-size: 14px;
+        font-size: 11px;
         font-style: normal;
         font-weight: 700;
         line-height: normal;

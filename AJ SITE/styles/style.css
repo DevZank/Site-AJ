@@ -2,6 +2,18 @@
     box-sizing: border-box;
 }
 
+a:link {
+    text-decoration:none;
+}
+    
+a:visited {
+    text-decoration:none;
+}
+    
+a:hover {
+    text-decoration:underline;
+}
+
 .background {
     height: auto; /* Alterado para altura automática para se ajustar ao conteúdo */
     background: #139DF2;
@@ -812,6 +824,16 @@ body::-webkit-scrollbar-thumb {
     display: flex;
     flex-direction: row;
     align-items: center;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    gap: 10px;
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
 }
 
 .img-job {
