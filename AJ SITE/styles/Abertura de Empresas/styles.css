@@ -1,0 +1,132 @@
+* {
+    box-sizing: border-box;
+}
+
+.background {
+    height: auto; /* Alterado para altura automática para se ajustar ao conteúdo */
+    background: #139DF2;
+}
+
+body::-webkit-scrollbar {
+    width: 14px;
+}
+
+body::-webkit-scrollbar-track {
+    background: #139DF2;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #f9f9f9;
+    border-radius: 12px;
+    border: 3px solid #139DF2;
+}
+
+.header {
+    display: flex;
+    width: 100%; /* Alterado para 100% para ocupar a largura total */
+    height: 56px;
+    padding: 8px 16px;
+    justify-content: space-between;
+    align-items: center;
+    flex-shrink: 0;
+    background: #f9f9f9;
+}
+
+.Text-Header {
+    color: var(--Azul-Escuro, #0F71F2);
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.Logo-Header {
+    width: 35px;
+    height: 32px;
+    flex-shrink: 0;
+}
+
+.div-job {
+    margin-top: 10px;
+    background-color: #f9f9f9;
+    display: flex;
+    width: 100%;
+    height: 85vh;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.text-div {
+    width: 50%;
+}
+
+.title-job {
+    text-align: center;
+    color: var(--Azul-Escuro, #000000);
+    font-family: Montserrat;
+    font-size: 34px;
+    height: 80%;
+    font-style: normal;
+    font-weight: bolder;
+    line-height: normal;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: max-content;
+}
+
+.text-job {
+    color: var(--Azul-Escuro, #000000);
+    font-family: Montserrat;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: max-content;
+}
+
+@media (max-width: 1200px) {
+    .text-job {
+        color: var(--Azul-Escuro, #000000);
+        font-family: Montserrat;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        padding-left: 10px;
+        padding-right: 10px;
+        height: max-content;
+    }
+}
+
+@media (max-width: 921px) {
+    .text-job {
+        color: var(--Azul-Escuro, #000000);
+        font-family: Montserrat;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        padding-left: 10px;
+        padding-right: 10px;
+        height: max-content;
+    }
+}
+
+@media (max-width: 621px) {
+    .text-job {
+        color: var(--Azul-Escuro, #000000);
+        font-family: Montserrat;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        padding-left: 10px;
+        padding-right: 10px;
+        height: max-content;
+    }
+}
