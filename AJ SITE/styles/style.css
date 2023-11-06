@@ -2,6 +2,19 @@
     box-sizing: border-box;
 }
 
+@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/variables";
+@import "../node_modules/bootstrap/scss/variables-dark";
+@import "../node_modules/bootstrap/scss/maps";
+@import "../node_modules/bootstrap/scss/mixins";
+@import "../node_modules/bootstrap/scss/root";
+@import "../node_modules/bootstrap/scss/utilities";
+@import "../node_modules/bootstrap/scss/reboot";
+@import "../node_modules/bootstrap/scss/containers";
+@import "../node_modules/bootstrap/scss/grid";
+@import "../node_modules/bootstrap/scss/helpers";
+@import "../node_modules/bootstrap/scss/utilities/api";
+
 a:link {
     text-decoration:none;
 }
@@ -432,6 +445,19 @@ body::-webkit-scrollbar-thumb {
     background: #0F71F2;
 }
 
+.square-box1 {
+    display: flex;
+    width: 50%;
+    height: 20%;
+    padding: 8px 16px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-radius: 14px;
+    background: #0F71F2;
+}
+
 .text-cards {
     color: var(--Branco, #EBECEC);
     font-family: Montserrat;
@@ -541,6 +567,19 @@ body::-webkit-scrollbar-thumb {
     }
 
     .square-box {
+        display: flex;
+        width: 90%;
+        height: 20%;
+        padding: 8px 16px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        flex-shrink: 0;
+        border-radius: 14px;
+        background: #0F71F2;
+    }
+
+    .square-box1 {
         display: flex;
         width: 90%;
         height: 20%;
@@ -798,6 +837,8 @@ body::-webkit-scrollbar-thumb {
 
 .jobs {
     width: 100%;
+    height: 80%;
+    align-self: center;
     background-color: #EBECEC;
     padding: 20px;
 }
@@ -887,4 +928,34 @@ footer {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+}
+
+.text-about, .square-image, .Photo1 {
+    visibility: hidden;
+}
+
+.square-box1, .square-box, .button-we-do, .div-title-what-we-do{
+    visibility: hidden;
+}
+
+.title-info, .img-info, .img-logo, .txt-logoW, .txt-logoI, .txt-logoF{
+    visibility: hidden;
+}
+
+.squares1, .squares2, .title-job {
+    visibility: hidden;
+}
+
+.dropdown {
+    background-color: transparent;
+}
+
+.btn {
+    background-color: transparent;
+}
+.btn-secondary {
+    background-color: transparent;
+}
+.dropdown-toggle {
+    background-color: transparent;
 }
